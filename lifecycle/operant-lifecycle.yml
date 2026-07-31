@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: >-
+  https://operant.statuspage.io (live 200), https://www.operant.ai (platform
+  pages). Operant AI is a runtime security product delivered via K8s-native
+  agents/controllers rather than a public developer REST API, so there is no
+  public API versioning policy, deprecation policy, or RFC 8594 Sunset/Deprecation
+  header surface to capture. What is publicly published is a hosted status page.
+versioning:
+  scheme: null
+  mechanism: null
+  docs: null
+  notes: >-
+    Operant AI does not publish a public developer API versioning policy. The
+    product is deployed as an in-cluster runtime defense platform; API/version
+    lifecycle is managed through the product release channels, not a public
+    dated/semver API contract.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No public deprecation policy or Sunset/Deprecation header contract is published.
+sla:
+  url: null
+  public_uptime_target: null
+  notes: No public numeric uptime SLA is published for the platform.
+status_page: https://operant.statuspage.io/

@@ -1,7 +1,29 @@
 aid: operant
 name: Operant
-description: Operant is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Operant AI is a San Francisco-based runtime security company (founded 2021,
+  backed by Felicis) that protects cloud and AI applications with real-time,
+  Kubernetes-native "3D Runtime Defense" — discovery, detection, and defense
+  across APIs, services, LLMs, and agents. Its platform delivers automatic API
+  discovery and catalogs, API-to-API microsegmentation, protocol-specific
+  authentication/authorization, traffic rate limiting, inline auto-redaction of
+  sensitive/PII data, and OWASP/MITRE guardrails that block a majority of the
+  OWASP Top 10 threats. Product lines include Agent Protector, Endpoint
+  Protector, AI Gatekeeper, an MCP Gateway, and Cloud Application Detection and
+  Response (CADR). Operant is SOC 2 Type II compliant and publishes open-source
+  tooling such as Woodpecker (red teaming for AI and cloud).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/679016dc377b83ff1bad1fd4/6790179d12a457a36ea38e03_Operant%20-%20Zen%20Favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/operant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- API Security
+- AI Security
+- Runtime Security
+- Cloud Security
+- Kubernetes
+- Agentic AI
+- CADR
+- Detection and Response
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,32 @@ maintainers:
 common:
 - type: Website
   url: https://operant.ai
+- type: Documentation
+  url: https://docs.operant.ai
+- type: Blog
+  url: https://www.operant.ai/art-kubed
+- type: Pricing
+  url: https://www.operant.ai/platform/pricing
+- type: SignUp
+  url: https://www.operant.ai/platform/start-now
+- type: Login
+  url: https://app.operant.ai/
+- type: Support
+  url: https://www.operant.ai/company/contact
+- type: GitHubOrganization
+  url: https://github.com/OperantAI
+- type: StatusPage
+  url: https://operant.statuspage.io/
+- type: Compliance
+  url: security/operant-trust-center.yml
+- type: TrustCenter
+  url: security/operant-trust-center.yml
+- type: DomainSecurity
+  url: security/operant-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/operant-lifecycle.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+source: https://www.operant.ai/company/about
+url: https://www.operant.ai/company/about
+description: >-
+  Operant AI's compliance posture as published on its About page. Operant is
+  SOC 2 Type II compliant. The automated trust-center probe did not record this
+  because Operant states its compliance status on marketing/company pages rather
+  than on a trust.<domain> subdomain or a security.txt-linked policy that meets
+  the probe's keyword threshold — this is the searched, human-verified fill.
+certifications:
+  - {name: SOC 2 Type II, note: Stated as "SOC 2, Type II Compliant" on the company About page.}
+report_access:
+  soc_reports: Not published publicly; contact Operant AI for report access.
+docs:
+  - https://www.operant.ai/company/about
+evidence:
+  - {source: https://www.operant.ai/company/about, keywords: [soc 2 type ii, compliant]}
