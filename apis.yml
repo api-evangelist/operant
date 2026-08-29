@@ -12,6 +12,17 @@ description: >-
   Protector, AI Gatekeeper, an MCP Gateway, and Cloud Application Detection and
   Response (CADR). Operant is SOC 2 Type II compliant and publishes open-source
   tooling such as Woodpecker (red teaming for AI and cloud).
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
